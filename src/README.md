@@ -1,1 +1,2 @@
-This directory contains the source code for the pcb-vision project
+This directory contains the source code for the pcb-vision project.
+buildmodel.py is the final script used to read in the images and annotations. It uses cocosplit.py to perform a 70/30 split. It also sets parameters and builds the Faster R-CNN variant. There are various sanity checks and exploratory analysis throughout the script. A train loss function is implemented and visualized. Then the final model is saved and predictor is built. The model file and predictor are both built into the Streamlit front end app.

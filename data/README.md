@@ -1,2 +1,2 @@
 This directory contains the image data (Git LFS) for the pcb-vision project. It also contains the necessary json files for bound box annotations used in training the model. The file "result.json" contains all 179 image identifiers and 1124 separate annotations.
-Running the cocosplit.py script found in the src directory splits these annotations up randomly into 70% (training) and 30% (validation). These files have already been generated and are present in this directory as "train.json" and "test.json".
+Running the cocosplit.py script found in the src directory splits these annotations up randomly into 70% (732 training) and 30% (392 validation). These files have already been generated and are present in this directory as "train.json" and "test.json".

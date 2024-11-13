@@ -1,6 +1,6 @@
 # PCB Computer Vision Project
 ### Overview
-This project implements a computer vision system that utilizes a Faster R-CNN variant to detect and classify electronic components, specifically capacitors, resistors, and integrated circuits (ICs), on printed circuit boards (PCBs). It's primary purpose is labeling components and determing whether they are good or defective.
+This project implements a computer vision system that utilizes a Faster R-CNN variant to detect and classify capacitors, resistors, and integrated circuits (ICs), on printed circuit boards (PCBs). It's purpose is labeling components and determing whether they are good or defective.
 
 ### Features
 * Component Detection: Identify capacitors, resistors, and ICs with high accuracy.
